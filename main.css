@@ -207,7 +207,7 @@ nav a:hover {
     transform: translateX(-5px);
   }
   to {
-    transform: translateX(65px);
+    transform: translateX(90px);
     opacity: 0.8;
   }
 }
@@ -1102,13 +1102,13 @@ footer .back-to-top a {
 }
 /* SCROLL ANIMATIONS */
 .scroll-animation {
-  opacity: 0;
+  /* opacity: 0; */
   filter: blur(3px);
   transform: translateY(-100px);
   transition: all 1s;
 }
 .show-scroll-animation {
-  opacity: 1;
+  /* opacity: 1; */
   filter: blur(0);
   transform: translateY(0);
 }
@@ -1207,7 +1207,7 @@ nav ul li {
     transform: translateX(-2px);
   }
   to {
-    transform: translateX(40px);
+    transform: translateX(50px);
     opacity: 0.5;
   }
 }
@@ -1399,6 +1399,25 @@ nav ul li {
 }
 /* ///////////////////////// */
 @media (max-width: 850px) {
+  .hero-section h1::before {
+  content: '';
+  width: 100px;
+  height: 50px;
+  background-color: black;
+  position: absolute;
+  top: 30px;
+
+  animation: heroH1Animation 3s linear 0s 1 forwards;
+}
+@keyframes heroH1Animation {
+  from {
+    transform: translateX(-5px);
+  }
+  to {
+    transform: translateX(90px);
+    opacity: 0.8;
+  }
+}
 
 #about {
   position: relative;
@@ -1862,6 +1881,25 @@ nav ul li {
   padding-inline: 10px;
   padding-top: 3rem;
 }
+.hero-section h1::before {
+  content: '';
+  width: 100px;
+  height: 50px;
+  background-color: black;
+  position: absolute;
+  top: 30px;
+
+  animation: heroH1Animation 3s linear 0s 1 forwards;
+}
+@keyframes heroH1Animation {
+  from {
+    transform: translateX(-5px);
+  }
+  to {
+    transform: translateX(90px);
+    opacity: 0.8;
+  }
+}
 nav ul li {
   padding-bottom: 3rem;
 }
@@ -1880,7 +1918,7 @@ nav ul li {
     transform: translateY(0px);
   }
   to {
-    transform: translateY(15px);
+    transform: translateY(25px);
     opacity: 0.5;
   }
 }.hero-section img {
