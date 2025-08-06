@@ -1793,7 +1793,7 @@ nav ul li {
 
 @media (max-width: 475px)  {
   body {
-    width: 100%;
+    width: fit-content;
   }
 .hero-section {
   /* background-color:darkgreen; */
