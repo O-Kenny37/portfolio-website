@@ -418,9 +418,9 @@ nav a:hover {
 .about-image {
   position: relative;
 }
-.img-bg {
-  /* border-radius: 50%; */
-}
+/* .img-bg {
+  border-radius: 50%;
+} */
 .image-bg1 {
   width: 210px;
   height: 360px;
@@ -1460,9 +1460,9 @@ nav ul li {
 .about-image {
   position: relative;
 }
-.img-bg {
-  /* border-radius: 50%; */
-}
+/* .img-bg {
+  border-radius: 50%;
+} */
 .image-bg1 {
   width: 210px;
   height: 260px;
@@ -1534,14 +1534,16 @@ nav ul li {
  }
 .skills-box-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 200px);
+  grid-template-columns: repeat(auto-fill, 100px);
   grid-template-rows: auto;
   color: white;
   justify-content: center;
-  gap: 8rem;
+  align-items: center;
+  column-gap: 4rem;
+  row-gap: 8rem;
 }
 .box {
-  width: 200px;
+  width: 100px;
   height: auto;
   background: transparent;
 }
@@ -2094,9 +2096,9 @@ nav ul li {
   position: relative;
   padding-bottom: 1rem;
 }
-.img-bg {
-  /* border-radius: 50%; */
-}
+/* .img-bg {
+  border-radius: 50%;
+} */
 .image-bg1 {
   width: 210px;
   height: 260px;
