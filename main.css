@@ -1072,12 +1072,14 @@ padding-top: 30%;
   color: white;
   font-size: 2rem;
   text-align: center;
-  padding-bottom: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 6rem;
 }
 .contact-bg {
   background-color: rgb(17, 17, 17);
   padding: 20px 10px 20px 10px;
   border-radius: 10px;
+  box-shadow: 10px 20px 30px 2px rgb(17, 17, 17);
   position: relative;
   width: 300px;
   text-align: center;
@@ -1100,6 +1102,7 @@ padding-top: 30%;
   align-self: center;
   position: absolute;
   top: -1.1rem;
+  left: 46%;
 }
 .contact-system a {
   color: white;
@@ -1109,6 +1112,7 @@ footer {
   color: white;
   border-top: 1px solid white;
   padding-top: 10px;
+  margin-inline: 2rem;
 }
 footer .back-to-top {
   text-align: right;

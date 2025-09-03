@@ -46,7 +46,7 @@ const closeBtn = document.querySelector('.close-btn');
 const projectOne = document.querySelector('.project1');
 const projectTwo = document.querySelector('.project2');
 const projectThree = document.querySelector('.project3');
-const projectFour = document.querySelector('.project4');
+// const projectFour = document.querySelector('.project4');
 const projectFive = document.querySelector('.project5');
   
 // .project-front-cover-open-animation
@@ -62,14 +62,14 @@ const projectFive = document.querySelector('.project5');
       projectOneBook.classList.add('project-one-book-open-animation');
       projectTwoBook.classList.add('project-two-book-open-animation');
       projectThreeBook.classList.add('project-three-book-open-animation');
-      projectFourBook.classList.add('project-four-book-open-animation');
+      // projectFourBook.classList.add('project-four-book-open-animation');
       projectFiveBook.classList.add('project-five-book-open-animation');
     }
     else {
       openBtn.style.display = 'none';
       // closeBtn.style.display = 'none';
       projectFiveBook.classList.add('projectFiveExploreAnimation');
-      projectFourBook.classList.add('projectFourExploreAnimation');
+      // projectFourBook.classList.add('projectFourExploreAnimation');
       projectThreeBook.classList.add('projectThreeExploreAnimation');
       projectTwoBook.classList.add('projectTwoExploreAnimation');
       projectOneBook.classList.add('projectOneExploreAnimation');
@@ -78,7 +78,7 @@ const projectFive = document.querySelector('.project5');
       projectOne.classList.add('projectOpacity');
       projectTwo.classList.add('projectOpacity');
       projectThree.classList.add('projectOpacity');
-      projectFour.classList.add('projectOpacity');
+      // projectFour.classList.add('projectOpacity');
       projectFive.classList.add('projectOpacity');
     }
   });
