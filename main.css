@@ -161,6 +161,17 @@ nav a:hover {
   font-size: 10px;
   left: -10px;
 }
+.certificate-icon-wrapper {
+  position: relative;
+}
+.certificate-icon::before {
+  content: attr(data-label);
+  position: absolute;
+  top: -15px;
+  font-style: italic;
+  font-size: 10px;
+  left: -10px;
+}
 .contact-icon-wrapper {
   position: relative;
 }
@@ -1089,9 +1100,20 @@ padding-top: 30%;
   font-weight: bold;
   font-size: 1.5rem;
   border-bottom: 2px solid white;
-  padding-top: 5rem;
   padding-right: 3rem;
+  padding-top: 5rem;
   border-right: 2px solid white;
+}
+.cert-header-wrapper {
+  position: relative;
+}
+.cert-icon {
+  position: absolute;
+  left: 35%;
+  font-size: 2rem;
+}
+.cert-icon i {
+  text-shadow: 1px 1px 10px white;
 }
 .cert-images {
    display: flex;
@@ -1108,6 +1130,7 @@ padding-top: 30%;
 .cert-name {
   padding-bottom: 1rem;
 }
+
 
 
 /* //////REACH OUT */
@@ -1828,15 +1851,24 @@ nav ul li {
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding-left: 2rem;
+  gap: 3rem;
 }
 .certification-header {
   text-align: center;
   font-weight: bold;
   font-size: 1.5rem;
   border-bottom: 1px solid white;
-  border-left: 1px solid white;
   border-right: 1px solid white;
+  border-left: none;
   padding: 1rem 10px 10px 10px;
+}
+.cert-header-wrapper {
+  position: relative;
+}
+.cert-icon {
+  position: absolute;
+  left: 35%;
+  font-size: 2rem;
 }
 .cert-images {
    display: flex;
