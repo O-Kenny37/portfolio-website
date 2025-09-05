@@ -114,7 +114,14 @@ nav a:hover {
 .home-icon-wrapper {
   position: relative;
 }
-.home-icon:hover::before {
+/* .home-icon:hover::before {
+  content: attr(data-label);
+  position: absolute;
+  top: -15px;
+  font-style: italic;
+  font-size: 10px;
+} */
+ .home-icon::before {
   content: attr(data-label);
   position: absolute;
   top: -15px;
@@ -124,7 +131,7 @@ nav a:hover {
 .about-icon-wrapper {
   position: relative;
 }
-.about-icon:hover::before {
+.about-icon::before {
   content: attr(data-label);
   position: absolute;
   top: -15px;
@@ -135,18 +142,18 @@ nav a:hover {
 .project-icon-wrapper {
   position: relative;
 }
-.project-icon:hover::before {
+.project-icon::before {
   content: attr(data-label);
   position: absolute;
   top: -15px;
   font-style: italic;
-  font-size: 8px;
+  font-size: 10px;
   left: -15px;
 }
 .skills-icon-wrapper {
   position: relative;
 }
-.skills-icon:hover::before {
+.skills-icon::before {
   content: attr(data-label);
   position: absolute;
   top: -15px;
@@ -157,7 +164,7 @@ nav a:hover {
 .contact-icon-wrapper {
   position: relative;
 }
-.contact-icon:hover::before {
+.contact-icon::before {
   content: attr(data-label);
   position: absolute;
   top: -15px;
