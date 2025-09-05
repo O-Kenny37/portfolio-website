@@ -1089,6 +1089,7 @@ padding-top: 30%;
 }
 /* /////////CERTIFICATION////// */
 .certification-container {
+
   color: white;
   display: flex;
   /* flex-wrap: wrap; */
@@ -1739,6 +1740,9 @@ nav ul li {
 
 /* ////////////////////////// */
 @media (max-width: 700px) {
+  body {
+    width: fit-content;
+  }
    header {
     background: transparent;
     margin-top: 4rem;
@@ -1852,6 +1856,7 @@ nav ul li {
   justify-content: space-evenly;
   padding-left: 2rem;
   gap: 3rem;
+  width: fit-content;
 }
 .certification-header {
   text-align: center;
@@ -1878,7 +1883,7 @@ nav ul li {
    padding: 2rem;
 }
 .cert-images img {
-  width: 400px;
+  width: 300px;
   height: auto;
   border: 1px dashed white;
 }
